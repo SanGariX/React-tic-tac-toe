@@ -15,15 +15,15 @@ function App() {
     [2, 4, 6],
   ];
   const [state, setState] = useState([
-    SYMBOL_X,
     null,
     null,
     null,
     null,
     null,
-    SYMBOL_O,
     null,
-    SYMBOL_X,
+    null,
+    null,
+    null,
   ]);
   const [currentStep, setCurrentStep] = useState(SYMBOL_X);
   const [win, setWin] = useState(false);
